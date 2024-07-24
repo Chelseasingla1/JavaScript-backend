@@ -5,6 +5,7 @@ import Box from './Box';
 import Counter from './Counter';
 import App from './App';
 import App1 from './App1';
+import App2 from './App2';
 
 // const root = ReactDOM.createRoot(document.getElementById('root'));
 const root = ReactDOM.createRoot(document.getElementsByClassName('root')[0]);
@@ -12,14 +13,15 @@ const root = ReactDOM.createRoot(document.getElementsByClassName('root')[0]);
 // const root = ReactDOM.createRoot(document.getClassName('root')[0]);
 root.render(
   <React.StrictMode>
-   <Navbar></Navbar>
-   <Box content="Hello">
-    <p>First box</p>  
+   {/* <Navbar></Navbar> */}
+   {/* <Box content="Hello"> */}
+    {/* <p>First box</p>   */}
     {/* //alone no effect  */}
-   </Box>
-   <Box content="hiii..."></Box>
-   <Counter></Counter>
-   <App></App>
-   <App1></App1>
+   {/* </Box> */}
+   {/* <Box content="hiii..."></Box> */}
+   {/* <Counter></Counter> */}
+   {/* <App></App> */}
+   {/* <App1></App1> */}
+   <App2></App2>
   </React.StrictMode>
 );
